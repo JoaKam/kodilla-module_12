@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-jdbc.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-jdbc.iml" group="kodilla-jdbc" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-jdbc/kodilla-jdbc_main.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-jdbc/kodilla-jdbc_main.iml" group="kodilla-jdbc" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-jdbc/kodilla-jdbc_test.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-jdbc/kodilla-jdbc_test.iml" group="kodilla-jdbc" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-module12.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-module12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-module12_main.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-module12_main.iml" group="kodilla-module12" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-module12_test.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-module12_test.iml" group="kodilla-module12" />
+    </modules>
+  </component>
+</project>
