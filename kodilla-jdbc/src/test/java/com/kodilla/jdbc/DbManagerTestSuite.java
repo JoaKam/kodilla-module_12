@@ -31,16 +31,17 @@ public class DbManagerTestSuite {
         Statement statement = dbManager.getConnection().createStatement();
         ResultSet rs = statement.executeQuery(sqlQuery);
 
+
         //Then
-        int counter = 0;
         while (rs.next()) {
             System.out.println(
                     rs.getString("FIRST_NAME") + ", " +
-                    rs.getString("LAST_NAME"));
-            counter++;
+                            rs.getString("LAST_NAME"));
+            Assert.assertEquals("Barbara", rs.getString("FIRST_NAME"));
+            Assert.assertEquals("Nowak", rs.getString("LAST_NAME"));
         }
+
         rs.close();
         statement.close();
-        Assert.assertEquals(1, counter);
     }
 }
